@@ -36,17 +36,24 @@ SwitchLink is a sophisticated Internet-connected smart switch control unit desig
 
 Critical Components:
 
-* Microcontroller (MCU):
+Microcontroller (MCU):
 
 SAMW25 Xplained Pro: This microcontroller handles all processing tasks, including sensor data acquisition, control logic, and communication. It is integrated with FreeRTOS for real-time task management and efficient operation.
+
+![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/e79b1999-de71-4e35-aaab-e9fc03f9922e)
 
 
 Sensors:
 
 * VL6180X Proximity Sensors: Two proximity sensors are used for non-contact switch control. These sensors detect the presence of a hand or object near the switch, allowing for gesture-based control of the connected devices.
 
+![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/d25961f5-0aaa-4e68-8e07-7b28c9da3803)
+
 
 * OP Amp Comparator: Used in the Smart USB charging system to detect the full-charge status of connected devices. This comparator monitors the voltage level and triggers notifications when the device is fully charged.
+
+![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/9967b092-16e0-412b-a9db-6a49e4485bf5)
+
 
 Actuators:
 
