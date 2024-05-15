@@ -40,19 +40,19 @@ Microcontroller (MCU):
 
 SAMW25 Xplained Pro: This microcontroller handles all processing tasks, including sensor data acquisition, control logic, and communication. It is integrated with FreeRTOS for real-time task management and efficient operation.
 
-![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/e79b1999-de71-4e35-aaab-e9fc03f9922e)
+![image-removebg-preview](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/54d54caa-2762-4234-9128-e6519227d2f5)
 
 
 Sensors:
 
 * VL6180X Proximity Sensors: Two proximity sensors are used for non-contact switch control. These sensors detect the presence of a hand or object near the switch, allowing for gesture-based control of the connected devices.
 
-![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/d25961f5-0aaa-4e68-8e07-7b28c9da3803)
+![image-removebg-preview (1)](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/80537ec8-d208-4257-a15f-80bfece1ad21)
 
 
 * OP Amp Comparator: Used in the Smart USB charging system to detect the full-charge status of connected devices. This comparator monitors the voltage level and triggers notifications when the device is fully charged.
 
-![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/9967b092-16e0-412b-a9db-6a49e4485bf5)
+![image-removebg-preview (2)](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/128e67fa-1c01-4f62-b5f8-5d49738ebabf)
 
 
 Actuators:
