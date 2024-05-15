@@ -211,16 +211,24 @@ On Development Level:
 
 * Altium Board Design:
 
-   2D: ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/b428e645-10ee-4e0a-b56b-df39f2112e90)
+   2D:
 
-   3D: ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/05523a8c-982f-4cf0-9061-6fa94c3e1840)
+     ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/b428e645-10ee-4e0a-b56b-df39f2112e90)
+
+   3D:
+
+     ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/05523a8c-982f-4cf0-9061-6fa94c3e1840)
 
 
 * Node-red Dashboard:
 
-   UI: ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/941d490d-4027-4020-b007-ba4f4f53ad8c)
+   UI:
 
-   Backend: ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/838307ae-c314-4298-b59e-b7c8e669e3ad)
+     ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/941d490d-4027-4020-b007-ba4f4f53ad8c)
+
+   Backend:
+
+     ![image](https://github.com/ese5160/a14g-final-submission-t28-switchlink/assets/114270637/838307ae-c314-4298-b59e-b7c8e669e3ad)
 
 
 ## 5. Codebase:
