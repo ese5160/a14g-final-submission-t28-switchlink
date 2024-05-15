@@ -60,6 +60,7 @@ Communication Module:
 * MQTT Protocol: Enables remote control and monitoring of the switches over the Internet. The device connects to an MQTT broker, allowing users to send commands and receive status updates from anywhere with Internet access.
 
 
+
 Design Overview:
 
 User Interface:
@@ -86,12 +87,13 @@ Remote Control and Monitoring:
 
 
 Functional Workflow:
-Power Up: The device initializes, and the PMIC ensures stable power distribution to all components.
-Sensor Monitoring: The proximity sensors continuously monitor for user gestures to control the switches.
-Charge Detection: The OP Amp comparator monitors the voltage level of connected devices.
-User Interaction: When a proximity sensor detects a hand gesture, it sends a signal to the MCU, which activates the corresponding relay to turn the device on or off.
-Remote Commands: Users can send commands via the Internet using the MQTT protocol, allowing remote control of the switches.
-Notifications: When a device reaches full charge, the OP Amp comparator triggers the Piezo-buzzer to notify the user acoustically.
+
+* Power Up: The device initializes, and the PMIC ensures stable power distribution to all components.
+* Sensor Monitoring: The proximity sensors continuously monitor for user gestures to control the switches.
+* Charge Detection: The OP Amp comparator monitors the voltage level of connected devices.
+* User Interaction: When a proximity sensor detects a hand gesture, it sends a signal to the MCU, which activates the corresponding relay to turn the device on or off.
+* Remote Commands: Users can send commands via the Internet using the MQTT protocol, allowing remote control of the switches.
+* Notifications: When a device reaches full charge, the OP Amp comparator triggers the Piezo-buzzer to notify the user acoustically.
 
 ### Inspiration:
 
