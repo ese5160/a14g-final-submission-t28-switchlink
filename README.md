@@ -34,7 +34,7 @@ SwitchLink enhances the usability and safety of home appliances and devices, pro
 
 SwitchLink is a sophisticated Internet-connected smart switch control unit designed to enhance the management and safety of electrical devices. Here's a detailed explanation of its design, including the sensors, actuators, and other critical components:
 
-## Critical Components:
+Critical Components:
 
 * Microcontroller (MCU):
 
