@@ -34,7 +34,7 @@ SwitchLink enhances the usability and safety of home appliances and devices, pro
 
 SwitchLink is a sophisticated Internet-connected smart switch control unit designed to enhance the management and safety of electrical devices. Here's a detailed explanation of its design, including the sensors, actuators, and other critical components:
 
-1.Critical Components:
+## Critical Components:
 
 * Microcontroller (MCU):
 
@@ -50,8 +50,9 @@ Sensors:
 
 Actuators:
 
-Relay Module: Controls the switching of electrical devices. The relay module is activated based on inputs from the proximity sensors or remote commands received over the Internet.
-Piezo-buzzer: Generates acoustic notifications when a device connected to the USB charging system is fully charged. The buzzer is controlled using PWM signals to create different sound patterns.
+* Relay Module: Controls the switching of electrical devices. The relay module is activated based on inputs from the proximity sensors or remote commands received over the Internet.
+
+* Piezo-buzzer: Generates acoustic notifications when a device connected to the USB charging system is fully charged. The buzzer is controlled using PWM signals to create different sound patterns.
 
 
 Communication Module:
