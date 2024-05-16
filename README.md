@@ -202,6 +202,41 @@ On Development Level:
 
 ## 3. Hardware & Software Requirements
 
+###Planned:
+
+Software Requirement Functionalities:
+
+SRS 01 - Firmware Architecture and OTA Updates: The firmware, written in C, orchestrates the device's logic, communication protocols, and Wi-Fi connectivity. It supports OTA updates, ensuring flexibility and scalability. The firmware shall be modular, facilitating seamless integration of additional features.
+
+SRS 02 – C Libraries: C libraries will be developed to implement advanced gesture recognition algorithms using IR sensors. These algorithms shall interpret specific gestures, providing an intuitive and responsive user interface. Besides this, specific C libraries should be written for actuation through Relays and IR switches.
+
+SRS 03 - Universal IR Remote Database Management: A database system, supported by C libraries, will store and retrieve IR codes for various devices. These libraries shall encode and transmit IR signals, transforming SwitchLink into a universal remote control hub.
+
+SRS 04 - Occupancy Sensing Logic: C libraries will process data from the PIR motion sensor, implementing sophisticated logic for occupancy-based automation. The libraries shall offer configurable sensitivity levels and response times.
+
+Hardware Requirement Functionalities:
+
+HRS 02 - IR Sensors for Gesture Recognition: IR sensors are employed for non-contact switch control. These sensors interpret specific gestures, and should enhance the user interface with intuitive interaction capabilities. The functionality shall be tested for accuracy and responsiveness.
+
+HRS 03 - PIR Sensor for Occupancy Sensing: A PIR motion sensor is utilized for sophisticated occupancy sensing. It detects changes in the environment, signaling the presence or absence of occupants, influencing automation scenarios, and optimizing energy consumption.
+
+HRS 04 - Physical Internet Isolation Mechanism: SwitchLink features a physical switch for internet isolation, facilitated through a relay-based mechanism. When activated, it shall physically cut-down the device's connection to the internet, providing enhanced user privacy and security.
+
+HRS 05 - Embedded IR Remote Control System: An embedded universal IR remote control system utilizes IR LEDs to transmit signals compatible with a diverse range of consumer electronics protocols. This positions SwitchLink as a central hub for controlling various IR-controlled devices. The compatibility and range of the IR remote control shall be tested.
+
+HRS 06 - USB Charging Port Specifications: Equipped with USB Type-A ports, SwitchLink should provides a power supply capable of delivering up to 2.4A. These ports support efficient charging for mobile devices and other USB-powered peripherals.
+
+HRS 07 - Charging Status Monitoring System: Current sensors based on Hall effect or current transformer technology shall meticulously monitor the charging status of connected devices. Customizable buzzers, orchestrated by the microcontroller, should provide discernible notifications upon reaching full charge status.
+
+
+
+###Implemented Functionalities 
+
+* SRS 01 - Firmware Architecture and OTA Updates,
+* SRS 02 – C Libraries,
+* HRS 06 - USB Charging Port Specifications,
+* HRS 07 - Charging Status Monitoring System.
+
 ## 4. Project Photos & Screenshots
 
 * PCB Pictures:
